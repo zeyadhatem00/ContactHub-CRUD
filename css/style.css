@@ -1,0 +1,904 @@
+@font-face {
+  font-family: "inter";
+  src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+html {
+  scrollbar-width: none;
+}
+body {
+  font-family: "inter";
+}
+nav {
+  border-bottom: 0.8px solid #f0f1f5;
+}
+.logo {
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 0.5rem 1rem rgba(106, 0, 255, 0.19);
+  border-radius: 12px;
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(127, 34, 254) 0%,
+    oklch(0.511 0.262 276.966) 100%
+  );
+}
+.me-12 {
+  margin-right: 12px;
+}
+
+.head-h {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #101828;
+}
+.head-p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #6a7282;
+}
+
+.head-s {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #7e21ff;
+}
+.image {
+  width: 40px;
+  height: 40px;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: white;
+  transition: all 0.2s;
+  background: linear-gradient(
+    to right,
+    oklch(0.541 0.281 293.009) 0%,
+    oklch(0.511 0.262 276.966) 100%
+  );
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  color: rgb(107, 114, 130);
+  background-color: white;
+  transition: all 0.2s;
+}
+
+.icon:hover {
+  background-color: rgb(242, 243, 245);
+  color: rgb(55, 66, 84);
+}
+.add-btn:hover {
+  transform: translateY(-7%);
+  box-shadow: 0 0.5rem 1rem rgba(106, 0, 255, 0.2);
+}
+
+main {
+  background-color: rgb(247, 250, 252);
+  padding-top: 81px;
+}
+.user {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 64, 255, 0.225);
+
+  background: linear-gradient(
+    to right bottom,
+    oklch(0.623 0.214 259.815) 0%,
+    oklch(0.546 0.245 262.881) 100%
+  );
+}
+.parent {
+  padding: 20px;
+  border: 0.8px solid rgb(242, 243, 245);
+  background-color: white;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: all 0.2s;
+}
+.total {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #6a7282;
+}
+
+.zero {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #101828;
+}
+.star {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  box-shadow: 0 0.5rem 1rem rgba(255, 187, 0, 0.225);
+  background: linear-gradient(
+    to right bottom,
+    rgb(255, 185, 0) 0%,
+    oklch(0.705 0.213 47.604) 100%
+  );
+}
+
+.emer {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  box-shadow: 0 0.5rem 1rem rgba(255, 32, 86, 0.225);
+  background: linear-gradient(
+    to right bottom,
+    rgb(255, 32, 86) 0%,
+    oklch(0.577 0.245 27.325) 100%
+  );
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+.parent:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.py-32 {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.all-head {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #101828;
+}
+.all-p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #6a7282;
+}
+.input-div {
+  margin-top: 20px;
+}
+.input {
+  padding: 14px 16px 14px 44px;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(55, 66, 84);
+  font-family: "inter";
+  border: 0.8px solid rgb(228, 230, 235);
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+.glass {
+  left: 15px;
+}
+
+::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(153, 161, 176);
+  font-family: "inter";
+}
+
+.input:focus {
+  border-color: rgb(142, 82, 255);
+  box-shadow: 0 0 0 0.125rem rgb(227, 217, 255);
+  border-width: 1px;
+  outline: none;
+}
+
+.no-contact {
+  padding: 80px 0;
+}
+
+.dimin {
+  width: 80px;
+  height: 80px;
+
+  background-color: rgb(242, 243, 245);
+}
+
+.contact-p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #6a7282;
+}
+
+.contact-p-2 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #99a1af;
+}
+
+.w-h {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  box-shadow: 0 0.5rem 1rem rgba(255, 187, 0, 0.225);
+  background: linear-gradient(
+    to right bottom,
+    oklch(0.828 0.189 84.429) 0%,
+    oklch(0.705 0.213 47.604) 100%
+  );
+}
+
+.f-h {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #101828;
+}
+.f-p {
+  font-size: 11px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #6a7282;
+}
+.up {
+  padding: 16px 20px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom: 1px solid rgb(242, 243, 245);
+  background: linear-gradient(
+    to right,
+    oklch(0.987 0.022 95.277) 0%,
+    oklch(0.98 0.016 73.684) 100%
+  );
+}
+.right {
+  border: 1px solid rgb(242, 243, 245);
+  margin-bottom: 20px;
+}
+
+.down {
+  padding: 12px;
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.down-p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #99a1af;
+}
+.width {
+  width: 28%;
+  margin-left: auto;
+}
+.width-2 {
+  width: 71%;
+}
+
+.w-h-2 {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  box-shadow: 0 0.5rem 1rem rgba(255, 32, 86, 0.225);
+  background: linear-gradient(
+    to right bottom,
+    oklch(0.645 0.246 16.439) 0%,
+    oklch(0.577 0.245 27.325) 100%
+  );
+}
+
+.up-2 {
+  padding: 16px 20px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom: 1px solid rgb(242, 243, 245);
+  background: linear-gradient(
+    to right,
+    oklch(0.969 0.015 12.422) 0%,
+    oklch(0.971 0.013 17.38) 100%
+  );
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.247);
+  backdrop-filter: blur(2px) brightness(80%);
+  z-index: 9000;
+}
+
+.layer-up {
+  padding: 16px 24px;
+  border-bottom: 1px solid rgb(242, 243, 245);
+}
+
+.layer-head {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #101828;
+}
+
+.layer-x {
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  transition: all 0.2s;
+}
+.layer-x i {
+  color: rgb(153, 161, 176);
+  transition: all 0.2s;
+}
+
+.layer-x:hover {
+  background-color: rgb(242, 243, 245);
+}
+
+.layer-x:hover i {
+  color: rgb(74, 85, 102);
+}
+
+.layer-contact {
+  width: 512px;
+  height: 90vh;
+  scrollbar-width: none;
+}
+.layer-main {
+  padding: 24px;
+  height: calc(90vh - 68.8px);
+  scrollbar-width: none;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: linear-gradient(
+    to right bottom,
+    oklch(0.707 0.165 254.624) 0%,
+    oklch(0.546 0.245 262.881) 100%
+  );
+}
+
+.camera {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #364153;
+  padding: 8px 16px;
+  background-color: rgb(242, 243, 245);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.camera:hover {
+  background-color: rgb(228, 230, 235);
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-6 {
+  margin-bottom: 6px;
+}
+.input-1 {
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  border: 1px solid rgb(208, 212, 219);
+  background-color: rgb(247, 249, 250);
+  color: black;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+.label-1 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #364153;
+}
+.label-1 span {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #ff2056;
+}
+
+.input-1:focus {
+  border-color: rgb(142, 82, 255);
+  box-shadow: 0 0 0 0.125rem rgb(227, 217, 255);
+  border-width: 1px;
+  outline: none;
+}
+
+.select {
+  appearance: none;
+  cursor: pointer;
+}
+
+.area {
+  resize: none;
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.check-lab {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgb(74, 85, 102);
+  cursor: pointer;
+}
+
+.check-lab:hover {
+  color: #101828;
+}
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.cancel {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  transition: all 0.2s;
+  color: #364153;
+  width: 45%;
+  padding: 12px 20px;
+  background-color: rgb(242, 243, 245);
+}
+.cancel:hover {
+  background-color: rgb(228, 231, 235);
+}
+
+.save {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 20px;
+  line-height: 20px;
+  width: 45%;
+  color: white;
+  transition: all 0.1s;
+  background: linear-gradient(
+    to right,
+    oklch(0.541 0.281 293.009) 0%,
+    oklch(0.511 0.262 276.966) 100%
+  );
+}
+
+.save:hover {
+  box-shadow: 0 0.5rem 1rem rgba(106, 0, 255, 0.2);
+}
+.contact-grand {
+  border: 1px solid rgb(242, 243, 245);
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  transition: all 0.2s;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+.contact-grand:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.conatct-box {
+  padding: 16px 16px 12px 16px;
+}
+.contact-profile {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+}
+
+.contact-profile span {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: white;
+}
+
+.icon-w {
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+  background-color: rgb(219, 235, 255);
+}
+
+.contact-name {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #101828;
+}
+.tel-num {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #6a7282;
+}
+
+.email {
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+  background-color: rgb(238, 235, 255);
+}
+
+.email-info {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #4a5565;
+}
+
+.location {
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+  background-color: rgb(207, 250, 229);
+}
+
+.fixed {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 17px;
+  border-radius: 5px;
+}
+
+.family {
+  color: #1447e6;
+  background-color: rgb(219, 235, 255);
+}
+.friends {
+  color: #008236;
+  background-color: rgb(220, 252, 232);
+}
+.work {
+  color: #8200db;
+  background-color: rgb(243, 232, 255);
+}
+
+.school {
+  background-color: #fef3c6;
+  color: #b55200;
+}
+
+.other {
+  background-color: rgb(242, 243, 245);
+  color: #364153;
+}
+.emergency {
+  background-color: rgb(255, 242, 243);
+  color: #eb0040;
+  width: fit-content;
+}
+
+.contact-footer {
+  padding: 10px 16px;
+  background-color: rgb(250, 251, 252);
+  border-top: 1px solid rgb(242, 243, 245);
+  margin-top: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.phone-foot {
+  width: 36px;
+  height: 36px;
+  transition: all 0.2s;
+  background-color: rgb(235, 252, 244);
+}
+.phone-foot:hover {
+  background-color: rgb(207, 250, 229);
+}
+
+.mail-foot {
+  width: 36px;
+  height: 36px;
+  transition: all 0.2s;
+  background-color: rgb(244, 242, 255);
+}
+
+.mail-foot:hover {
+  background-color: rgb(228, 224, 255);
+}
+
+.mail-foot i {
+  transition: all 0.2s;
+  color: rgb(126, 33, 255);
+}
+
+.mail-foot:hover i {
+  color: rgb(255, 187, 0);
+}
+
+.STAR-FOOT {
+  width: 36px;
+  height: 36px;
+  transition: all 0.2s;
+  background-color: transparent;
+}
+.STAR-FOOT i {
+  color: rgb(153, 161, 176);
+  transition: all 0.2s;
+}
+
+.STAR-FOOT:hover {
+  background-color: rgb(242, 243, 245);
+}
+
+.STAR-FOOT:hover i {
+  color: rgb(255, 187, 0);
+}
+.heart-foot {
+  width: 36px;
+  height: 36px;
+  transition: all 0.2s;
+  background-color: transparent;
+}
+.heart-foot i {
+  color: rgb(153, 161, 176);
+  transition: all 0.2s;
+}
+
+.heart-foot:hover {
+  background-color: rgb(242, 243, 245);
+}
+
+.heart-foot:hover i {
+  color: rgb(255, 33, 89);
+}
+
+.edit-btn {
+  width: 36px;
+  height: 36px;
+  transition: all 0.2s;
+  background-color: transparent;
+}
+
+.edit-btn i {
+  color: rgb(153, 161, 176);
+  transition: all 0.2s;
+}
+
+.edit-btn:hover {
+  background-color: rgb(237, 241, 255);
+}
+
+.edit-btn:hover i {
+  color: rgb(78, 56, 245);
+}
+.delete-btn {
+  width: 36px;
+  height: 36px;
+  transition: all 0.2s;
+  background-color: transparent;
+}
+
+.delete-btn i {
+  color: rgb(153, 161, 176);
+  transition: all 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: rgb(255, 242, 243);
+}
+
+.delete-btn:hover i {
+  color: rgb(237, 0, 63);
+}
+
+.floating-star {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ffb900;
+  top: -2px;
+  right: -2px;
+  border: 2.5px solid white;
+}
+
+.floating-star i {
+  font-size: 0.45em;
+  line-height: 0;
+  vertical-align: 0.225em;
+}
+.floating-heart {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ff2056;
+  bottom: -2px;
+  right: -2px;
+  border: 2.5px solid white;
+}
+
+.floating-heart i {
+  font-size: 0.45em;
+  line-height: 0;
+  vertical-align: 0em;
+}
+
+.fav-contact-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+}
+.fav-contact-profile span {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: white;
+}
+
+.p-fav {
+  font-size: 14px;
+  line-height: 20px;
+  color: #101828;
+  font-weight: 500;
+}
+
+.p-fav-2 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #6a7282;
+}
+
+.back {
+  padding: 10px;
+  background-color: rgb(247, 249, 250);
+  border-radius: 15px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.back:hover {
+  background-color: #fffbeb;
+}
+
+.back:hover a {
+  background-color: #00bc7d;
+}
+
+.back a i {
+  color: rgb(0, 153, 102);
+  transition: all 0.2s;
+}
+
+.back:hover a i {
+  color: #ffffff;
+}
+
+.back-2 {
+  padding: 10px;
+  background-color: rgb(247, 249, 250);
+  border-radius: 15px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.back-2 a {
+  background-color: rgb(255, 227, 229);
+}
+
+.back-2 a i {
+  color: rgb(237, 0, 63);
+  transition: all 0.2s;
+}
+
+.back-2:hover {
+  background-color: rgb(255, 242, 243);
+}
+
+.back-2:hover a {
+  background-color: rgb(255, 33, 89);
+}
+
+.back-2:hover a i {
+  color: white;
+}
+
+.vv {
+  top: 95px;
+}
+
+.KK {
+  background-color: rgb(255, 251, 235);
+  transition: all 0.2s;
+}
+
+.KK i {
+  color: #ffb900;
+}
+
+.KK:hover {
+  background-color: rgb(255, 244, 199);
+}
+
+.KKH {
+  transition: all 0.2s;
+  background-color: rgb(255, 242, 243);
+}
+
+.KKH i {
+  color: rgb(255, 33, 89);
+}
+
+.KKH:hover {
+  background-color: rgb(255, 227, 229);
+}
+
+.error {
+  color: rgb(255, 33, 89);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.color-b {
+  border-color: rgb(250, 45, 55);
+}
+.color-g {
+  border-color: #00bc7d;
+}
+
+.cc {
+  background-color: #ffffffb3;
+  backdrop-filter: blur(20px);
+}
+
+.swal2-container {
+  z-index: 9999 !important;
+}
+
+.gradone {
+  background: linear-gradient(
+    to right bottom,
+    oklch(0.645 0.246 16.439) 0%,
+    oklch(0.577 0.245 27.325) 100%
+  );
+}
+
+.gradtwo {
+  background: linear-gradient(
+    to right bottom,
+    rgb(105, 22, 214) 0%,
+    oklch(45.717% 0.19564 328.195 / 0.849) 100%
+  );
+}
+
+.gradthree {
+  background: linear-gradient(
+    to right bottom,
+    oklch(0.707 0.165 254.624) 0%,
+    oklch(0.546 0.245 262.881) 100%
+  );
+}
+
+.gradfour {
+  background: linear-gradient(
+    to right bottom,
+    oklch(0.75 0.15 40) 0%,
+    oklch(0.58 0.18 20) 100%
+  );
+}
+
+.gradfive {
+  background: linear-gradient(
+    to right bottom,
+    oklch(0.696 0.17 162.48) 0%,
+    oklch(0.6 0.118 184.704) 100%
+  );
+}
