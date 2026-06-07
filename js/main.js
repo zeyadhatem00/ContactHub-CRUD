@@ -533,7 +533,8 @@ function search() {
   var term = serchinput.value.toLowerCase().trim();
   for (var i = 0; i < allcontacts.length; i++) {
     if (
-      allcontacts[i].name.toLowerCase().includes(term) ||
+    allcontacts[i].name.toLowerCase().includes(term) ||
+      allcontacts[i].mail.toLowerCase().includes(term) ||
       allcontacts[i].tel_number.includes(term)
     ) {
       cart += `
