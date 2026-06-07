@@ -66,156 +66,6 @@
       </div>
     </nav>
 
-    <main class="min-vh-100">
-      <div class="container-xxl px-lg-5 py-32">
-        <div class="row gy-3 gy-lg-0 mb-32">
-          <div class="col-md-6 col-lg-4">
-            <div class="parent d-flex align-items-center rounded-4">
-              <div
-                class="me-3 d-flex justify-content-center align-items-center user"
-              >
-                <i class="fa-solid fa-users" style="color: white"></i>
-              </div>
-              <div id="t-count">
-                <p class="total m-0">TOTAL</p>
-                <p class="zero m-0">0</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 vip col-lg-4">
-            <div class="parent d-flex align-items-center rounded-4">
-              <div
-                class="me-3 d-flex justify-content-center align-items-center star"
-              >
-                <i
-                  class="fa-solid fa-star"
-                  style="color: rgb(255, 255, 255)"
-                ></i>
-              </div>
-              <div id="f-count">
-                <p class="total m-0">FAVORITES</p>
-                <p class="zero m-0">0</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 vip col-lg-4">
-            <div class="parent d-flex align-items-center rounded-4">
-              <div
-                class="me-3 d-flex justify-content-center align-items-center emer"
-              >
-                <i
-                  class="fa-solid fa-heart-pulse"
-                  style="color: rgb(255, 255, 255)"
-                ></i>
-              </div>
-              <div id="e-count">
-                <p class="total m-0">EMERGENCY</p>
-                <p class="zero m-0">0</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row flex-column flex-lg-row">
-          <div class="col-lg-8 width-2">
-            <div id="thelast"></div>
-
-            <div
-              class="mb-25 d-flex input-div position-relative align-items-center"
-            >
-              <i
-                class="fa-solid glass fa-magnifying-glass position-absolute"
-                style="color: rgb(153, 161, 176)"
-              ></i>
-              <input
-                oninput="search()"
-                id="searchcontact"
-                class="rounded-4 w-100 input"
-                type="text"
-                name="searchinput"
-                placeholder="Search by name,phone, or email..."
-              />
-            </div>
-
-            <div>
-              <div id="display" class="row">
-                <div class="no-contact">
-                  <div class="d-flex flex-column align-items-center">
-                    <div
-                      class="dimin rounded-4 mb-3 d-flex align-items-center justify-content-center"
-                    >
-                      <i
-                        class="fa-solid fa-address-book fa-2x"
-                        style="color: rgb(208, 212, 219)"
-                      ></i>
-                    </div>
-                    <p class="m-0 contact-p">No contacts found</p>
-                    <p class="mt-1 contact-p-2">
-                      Click "Add Contact" to get started
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 width">
-            <div class="position-sticky vv">
-              <div class="rounded-4 shadow-sm right">
-                <div class="d-flex up align-items-center">
-                  <div
-                    class="w-h me-3 d-flex justify-content-center align-items-center"
-                  >
-                    <i
-                      class="fa-solid fa-star fa-sm"
-                      style="color: rgb(255, 255, 255)"
-                    ></i>
-                  </div>
-
-                  <div>
-                    <h2 class="f-h m-0">Favorites</h2>
-                    <p class="f-p m-0">Quick access to starred contacts</p>
-                  </div>
-                </div>
-                <div id="fav-up" class="down">
-                  <p
-                    class="down-p d-flex justify-content-center align-items-center p-4 m-0"
-                  >
-                    No favorites yet
-                  </p>
-                </div>
-              </div>
-
-              <div class="rounded-4 shadow-sm right">
-                <div class="d-flex up-2 align-items-center">
-                  <div
-                    class="w-h-2 me-3 d-flex justify-content-center align-items-center"
-                  >
-                    <i
-                      class="fa-solid fa-heart-pulse"
-                      style="color: rgb(255, 255, 255)"
-                    ></i>
-                  </div>
-
-                  <div>
-                    <h2 class="f-h m-0">Emergency</h2>
-                    <p class="f-p m-0">Important contacts for urgent calls</p>
-                  </div>
-                </div>
-                <div id="heart-down" class="down">
-                  <p
-                    class="down-p p-4 d-flex justify-content-center align-items-center m-0"
-                  >
-                    No emergency contacts
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
     <div
       class="layer d-none justify-content-center align-items-center position-fixed end-0 top-0 start-0 bottom-0"
     >
@@ -392,6 +242,156 @@
         </div>
       </div>
     </div>
+
+    <main class="min-vh-100">
+      <div class="container-xxl px-lg-5 py-32">
+        <div class="row gy-3 gy-lg-0 mb-32">
+          <div class="col-md-6 col-lg-4">
+            <div class="parent d-flex align-items-center rounded-4">
+              <div
+                class="me-3 d-flex justify-content-center align-items-center user"
+              >
+                <i class="fa-solid fa-users" style="color: white"></i>
+              </div>
+              <div id="t-count">
+                <p class="total m-0">TOTAL</p>
+                <p class="zero m-0">0</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 vip col-lg-4">
+            <div class="parent d-flex align-items-center rounded-4">
+              <div
+                class="me-3 d-flex justify-content-center align-items-center star"
+              >
+                <i
+                  class="fa-solid fa-star"
+                  style="color: rgb(255, 255, 255)"
+                ></i>
+              </div>
+              <div id="f-count">
+                <p class="total m-0">FAVORITES</p>
+                <p class="zero m-0">0</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 vip col-lg-4">
+            <div class="parent d-flex align-items-center rounded-4">
+              <div
+                class="me-3 d-flex justify-content-center align-items-center emer"
+              >
+                <i
+                  class="fa-solid fa-heart-pulse"
+                  style="color: rgb(255, 255, 255)"
+                ></i>
+              </div>
+              <div id="e-count">
+                <p class="total m-0">EMERGENCY</p>
+                <p class="zero m-0">0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row flex-column flex-lg-row">
+          <div class="col-lg-8 width-2">
+            <div id="thelast"></div>
+
+            <div
+              class="mb-25 d-flex input-div position-relative align-items-center"
+            >
+              <i
+                class="fa-solid glass fa-magnifying-glass position-absolute"
+                style="color: rgb(153, 161, 176)"
+              ></i>
+              <input
+                oninput="search()"
+                id="searchcontact"
+                class="rounded-4 w-100 input"
+                type="text"
+                name="searchinput"
+                placeholder="Search by name,phone, or email..."
+              />
+            </div>
+
+            <div>
+              <div id="display" class="row">
+                <div class="no-contact">
+                  <div class="d-flex flex-column align-items-center">
+                    <div
+                      class="dimin rounded-4 mb-3 d-flex align-items-center justify-content-center"
+                    >
+                      <i
+                        class="fa-solid fa-address-book fa-2x"
+                        style="color: rgb(208, 212, 219)"
+                      ></i>
+                    </div>
+                    <p class="m-0 contact-p">No contacts found</p>
+                    <p class="mt-1 contact-p-2">
+                      Click "Add Contact" to get started
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 width">
+            <div class="position-sticky vv">
+              <div class="rounded-4 shadow-sm right">
+                <div class="d-flex up align-items-center">
+                  <div
+                    class="w-h me-3 d-flex justify-content-center align-items-center"
+                  >
+                    <i
+                      class="fa-solid fa-star fa-sm"
+                      style="color: rgb(255, 255, 255)"
+                    ></i>
+                  </div>
+
+                  <div>
+                    <h2 class="f-h m-0">Favorites</h2>
+                    <p class="f-p m-0">Quick access to starred contacts</p>
+                  </div>
+                </div>
+                <div id="fav-up" class="down">
+                  <p
+                    class="down-p d-flex justify-content-center align-items-center p-4 m-0"
+                  >
+                    No favorites yet
+                  </p>
+                </div>
+              </div>
+
+              <div class="rounded-4 shadow-sm right">
+                <div class="d-flex up-2 align-items-center">
+                  <div
+                    class="w-h-2 me-3 d-flex justify-content-center align-items-center"
+                  >
+                    <i
+                      class="fa-solid fa-heart-pulse"
+                      style="color: rgb(255, 255, 255)"
+                    ></i>
+                  </div>
+
+                  <div>
+                    <h2 class="f-h m-0">Emergency</h2>
+                    <p class="f-p m-0">Important contacts for urgent calls</p>
+                  </div>
+                </div>
+                <div id="heart-down" class="down">
+                  <p
+                    class="down-p p-4 d-flex justify-content-center align-items-center m-0"
+                  >
+                    No emergency contacts
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
