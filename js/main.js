@@ -395,9 +395,6 @@ function addstarstyle(btn, index) {
   btn.classList.toggle("KK");
   btn.classList.toggle("STAR-FOOT");
   var icon = btn.querySelector("i");
-  var star = document.querySelectorAll(".floating-star");
-  star[index].classList.toggle("d-none");
-  star[index].classList.toggle("d-flex");
   icon.classList.toggle("fa-regular");
   icon.classList.toggle("fa-solid");
   localStorage.setItem("contactcontainer", JSON.stringify(allcontacts));
@@ -410,9 +407,6 @@ function addheartstyle(btn, index) {
   btn.classList.toggle("KKH");
   btn.classList.toggle("heart-foot");
   var icon = btn.querySelector("i");
-  var heart = document.querySelectorAll(".floating-heart");
-  heart[index].classList.toggle("d-none");
-  heart[index].classList.toggle("d-flex");
   icon.classList.toggle("fa-regular");
   icon.classList.toggle("fa-solid");
   localStorage.setItem("contactcontainer", JSON.stringify(allcontacts));
