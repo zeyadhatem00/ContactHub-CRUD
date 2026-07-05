@@ -38,7 +38,7 @@ function addContact() {
 function closeLayer() {
   layer.classList.replace("d-flex", "d-none");
 }
-if (localStorage.getItem("contactcontainer") != null) {
+if (localStorage.getItem("contactcontainer") !== null) {
   allcontacts = JSON.parse(localStorage.getItem("contactcontainer"));
   displaycontact();
   totalcounter();
