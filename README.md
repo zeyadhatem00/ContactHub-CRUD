@@ -29,7 +29,7 @@ There is no package manifest, build step, server-side code, or environment-varia
 The project is a static site and can be opened from a local web server.
 
 ```bash
-git clone --depth 1 https://github.com/zeyadhatem00/ContactHub-CRUD.git
+git clone --depth 1 https://github.com/zeyadhatem00/contacthub-crud.git
 cd ContactHub-CRUD
 python3 -m http.server 8000
 ```
